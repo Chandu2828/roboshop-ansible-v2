@@ -1,0 +1,13 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb.vnmurthy.online
+REDIS_HOST: redis.vnmurthy.online
+MYSQL_HOST: mysql.vnmurthy.online
+RABBITMQ_HOST: rabbitmq.vnmurthy.online
+CATALOGUE_HOST: catalogue.vnmurthy.online
+USER_HOST: user.vnmurthy.online
+CART_HOST: cart.vnmurthy.online
+SHIPPING_HOST: shipping.vnmurthy.online
+PAYMENT_HOST: payment.vnmurthy.online
+
+
