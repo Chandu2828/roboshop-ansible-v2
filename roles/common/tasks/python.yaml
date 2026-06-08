@@ -10,6 +10,6 @@
 - name: install dependencies
   pip:
     requirements: requirements.txt
-    execution: pip3.9
+    executable: pip3.9
   args:
     chdir: /app
