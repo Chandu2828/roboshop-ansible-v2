@@ -83,7 +83,7 @@
     - action == "delete"
     - item == "frontend"
 
-  - name: delete ec2 instances:
+  - name: delete ec2 instances
     amazon.aws.ec2_instances:
       state: absent
       name: "roboshop-{{ item }}"
