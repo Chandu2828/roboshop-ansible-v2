@@ -9,7 +9,6 @@
     chdir: /app
 
 - name: move shipping jar
-  commnd: mv target/shipping-1.0.jar shipping.jar
+  command: mv target/shipping-1.0.jar shipping.jar
   args:
     chdir: /app
-    
