@@ -80,7 +80,7 @@
       type: A
     loop: "{{ instances }}"
     when:
-    - action == "delete"
+    - input == "delete"
     - item == "frontend"
 
   - name: delete ec2 instances
