@@ -20,7 +20,7 @@
 
 - name: install python dependencies
   pip:
-    name: PYMYSQL
+    name: PyMySQL
     executable: pip3.9
 
 - name: load mysql data
