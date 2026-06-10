@@ -13,7 +13,7 @@
   
 - name: "delete {{ component }}.zip in tmp directory"
   file: 
-    path: /app
+    path: "/tmp/{{ component }}.zip"
     state: absent
 
 - name: create app directory
