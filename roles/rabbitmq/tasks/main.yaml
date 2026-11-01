@@ -21,3 +21,5 @@
         read_priv: .*
         write_priv: .*
     state: present
+
+# ansible-playbook -e "component=rabbitmq" roboshop.yaml

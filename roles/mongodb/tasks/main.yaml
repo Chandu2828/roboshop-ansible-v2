@@ -16,4 +16,5 @@
       name: mongod
       state: started
       enabled: yes
-      
+
+# ansible-playbook -e "component=mongodb" roboshop.yaml 
