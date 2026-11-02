@@ -6,4 +6,4 @@
   import_role:
     name: common
     tasks_from: hello.yaml # to load a specific file in common role
-    
+# We can load another roles into current role using import_role module, if we dont we give filename if loads by default main.yaml
