@@ -42,3 +42,5 @@
     name: catalogue
     state: restarted
     enabled: yes
+
+# ansible-playbook -e "component=catalogue" roboshop.yaml
