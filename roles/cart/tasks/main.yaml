@@ -17,3 +17,5 @@
   import_role:
     name: common
     tasks_from: restart
+
+# ansible-playbook -e "component=catalogue" roboshop.yaml
