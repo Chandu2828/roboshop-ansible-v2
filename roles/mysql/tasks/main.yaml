@@ -16,6 +16,7 @@
       enabled: yes
   - name: setup root password 
     # command: mysql_secure_installation --set-root-pass "{{ MYSQL_ROOT_PASSWORD }}"
+    # you need to create a ansible vault with the password to key MYSQL_ROOT_PASSWORD as we mentioned the .vault_pass in git ignore 
     command: mysql_secure_installation --set-root-pass "{{ root_password.mysql_root_password }}"
 
 # ansible-playbook -e "component=mysql" roboshop.yaml
